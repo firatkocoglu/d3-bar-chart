@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+}
+
+.bar {
+  fill: grey;
+}
+
+.bar:hover {
+  fill: white;
+}
+
+#tooltip {
+  opacity: 0;
+  padding: 2rem;
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid black;
+  border-radius: 10%;
+  position: absolute;
+  top: 17%;
+  left: 35%;
+  transition: opacity 0.1s;
+}
